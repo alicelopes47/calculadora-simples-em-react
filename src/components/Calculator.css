@@ -1,0 +1,42 @@
+* {
+    text-align: center;
+    background-color: lightpink;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+div {
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+div input {
+    height: 3em;
+    font-size: 3em;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+}
+
+div button {
+    height: 4em;
+    font-size: 2em;
+    background-color: lightblue;
+    border-radius: 25px;
+    margin-top: 1em;
+    cursor: pointer;
+}
+
+
+div label {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.result {
+    font-size: 3em;
+}
